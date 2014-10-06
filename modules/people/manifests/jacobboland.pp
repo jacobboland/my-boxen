@@ -27,6 +27,22 @@ class people::jacobboland {
 	#osx
 	include spectacle
 
+  class { 'osx::dock::icon_size':
+    size => 24
+  }
+
+  class { 'osx::dock::position':
+    position => 'left'
+  }
+
+  class { 'osx::dock::pin_position':
+    position => 'end'
+  }
+
+  include osx::dock::autohide
+  include osx::dock::clear_dock
+  include osx::global::enable_keyboard_control_access
+
 	#configurations
 	git::config::global { 'user.email':
     		value  => 'jacob.boland@daptiv.com'
