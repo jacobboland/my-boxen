@@ -1,6 +1,9 @@
 class people::jacobboland {
   	$home = "/Users/${::boxen_user}"
 
+	#development
+	include atom
+
 	#terminal
 	include apps::fishShell
 	include iterm2::dev
