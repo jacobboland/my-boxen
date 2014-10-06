@@ -21,6 +21,9 @@ class people::jacobboland {
 	include chrome::canary
 	include firefox
 
+	#osx
+	include spectacle
+
 	#configurations
 	git::config::global { 'user.email':
     		value  => 'jacob.boland@daptiv.com'
