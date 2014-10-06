@@ -24,6 +24,9 @@ class people::jacobboland {
 	include chrome::canary
 	include firefox
 
+  #media
+  include chromecast
+
 	#osx
 	include spectacle
 
@@ -42,6 +45,7 @@ class people::jacobboland {
   include osx::dock::autohide
   include osx::dock::clear_dock
   include osx::global::enable_keyboard_control_access
+  include osx::finder::show_hidden_files
 
 	#configurations
 	git::config::global { 'user.email':

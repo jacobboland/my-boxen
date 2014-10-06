@@ -139,6 +139,11 @@ GITHUBTARBALL
     xquartz (1.2.1)
 
 GITHUBTARBALL
+  remote: nickpellant/puppet-chromecast
+  specs:
+    puppet-chromecast (1.0.0)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.1.1)
@@ -177,6 +182,7 @@ DEPENDENCIES
   osx (= 2.2.2)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
+  puppet-chromecast (= 1.0.0)
   repository (= 2.3.0)
   ruby (= 8.1.4)
   spectacle (= 1.0.0)
