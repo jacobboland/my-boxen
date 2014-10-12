@@ -11,6 +11,8 @@ Dir.chdir Pathname.new(__FILE__).realpath + "../.."
 
 load File.expand_path "../boxen.rb", __FILE__
 
+load File.expand_path "../fishconfiggen.rb", __FILE__
+
 # Load local config if it exists. This file is ignored by Git, and can
 # be used for personal config.
 

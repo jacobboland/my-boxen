@@ -7,7 +7,7 @@ set -x PATH ~/bin $PATH
 ulimit -n 3000
 
 ## LOAD BASH ENVIRONMENT
-function processExport 
+function processExport
     set var (echo $argv | sed -E "s/^([A-Za-z0-9_]+)=(.*)\$/\1/")
     set value (echo $argv | sed -E "s/^([A-Za-z0-9_]+)=(.*)\$/\2/")
 
@@ -28,3 +28,5 @@ end
 if [ ~/.config/fish/personal.fish ]
     . ~/.config/fish/personal.fish
 end
+
+source ~/.config/fish/boxen.fish
