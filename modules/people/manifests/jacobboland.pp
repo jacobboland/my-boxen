@@ -3,6 +3,7 @@ class people::jacobboland {
 
 	#development
 	include atom
+  include nodejs
 
 	#terminal
 	include apps::fishShell
@@ -48,10 +49,10 @@ class people::jacobboland {
   include osx::finder::show_hidden_files
 
 	#configurations
-	git::config::global { 'user.email':
-    		value  => 'jacob.boland@daptiv.com'
-  	}
-  	git::config::global { 'user.name':
-    		value  => 'Jacob Boland'
-  	}
+  git::config::global {
+    'user.email': value  => 'jacob.boland@gmail.com'
+	}
+  git::config::global {
+    'user.name': value  => 'Jacob Boland'
+	}
 }
