@@ -29,6 +29,10 @@ class people::jacobboland {
 
     # home media
     include chromecast
+    include sonos
+
+    # health
+    include fitbit
 
     # osx
     include spectacle
