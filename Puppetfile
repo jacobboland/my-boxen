@@ -61,7 +61,7 @@ github "xquartz",     "1.2.1"
 # https://github.com/boxen.
 
 github "adobe_reader",      "1.2.0"
-github "atom",              "1.0.0"
+github "atom",              "1.1.0"
 github "chrome",            "1.1.1"
 github "firefox",           "1.1.5"
 github "fish",              "1.0.0"
