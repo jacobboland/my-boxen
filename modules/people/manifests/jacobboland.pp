@@ -62,4 +62,12 @@ class people::jacobboland {
     git::config::global {
         'user.name': value  => 'Jacob Boland'
     }
+
+    # atom
+    atom::theme { 'seti-ui': }
+    atom::theme { 'seti-syntax': }
+
+    atom::package { 'vim-mode': }
+    atom::package { 'minimap': }
+    atom::package { 'linter': }
 }
