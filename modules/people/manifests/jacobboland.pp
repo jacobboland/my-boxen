@@ -70,4 +70,5 @@ class people::jacobboland {
     atom::package { 'vim-mode': }
     atom::package { 'minimap': }
     atom::package { 'linter': }
+    atom::package { 'linter-jshint': }
 }
