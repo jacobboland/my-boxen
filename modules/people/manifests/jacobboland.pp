@@ -67,9 +67,11 @@ class people::jacobboland {
     atom::theme { 'seti-ui': }
     atom::theme { 'seti-syntax': }
 
+    atom::package { 'atom-beautify': }
     atom::package { 'autocomplete': }
     atom::package { 'autocomplete-paths': }
     atom::package { 'autocomplete-plus': }
+    atom::package { 'js-refactor': }
     atom::package { 'language-html': }
     atom::package { 'language-javascript': }
     atom::package { 'language-less': }
@@ -79,5 +81,4 @@ class people::jacobboland {
     atom::package { 'linter-less': }
     atom::package { 'minimap': }
     atom::package { 'refactor': }
-    atom::package { 'js-refactor': }
 }
